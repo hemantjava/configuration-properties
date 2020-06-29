@@ -13,7 +13,7 @@ import java.util.Map;
 @Configuration
 @PropertySource("classpath:sonu.properties")
 @ConfigurationProperties(prefix = "mail")
-public class ConfigProperties {
+public class ConfigProperties {//sarita
     private String hostName;
     private int port;
     private String from;
